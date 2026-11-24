@@ -1,0 +1,7 @@
+Prompt: 'The sky is'
+Prompt tokens (o200k_base): 'The'=976, ' sky'=17307, ' is'=382
+Model vocabulary: 1,814 tokens; checkpoint trained for 1986 steps
+
+FAILED: these prompt tokens never occurred in the training corpus, so the model has no
+embedding for them and cannot process the prompt:
+  ' sky' (o200k_base ID 17307)
